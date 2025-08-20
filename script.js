@@ -28,10 +28,11 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
   });
 
   // Simulate successful login
-  if (username === "admin" && password === "1234") {
+  if (username === "test123@gmail.com" && password === "123456789lolz") {
     localStorage.setItem("isAdmin", "true");
     window.location.href = "admin.html";
   } else {
     error.textContent = "Invalid username or password!";
   }
 });
+
